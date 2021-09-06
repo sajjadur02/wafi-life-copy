@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containar{
+    width: 1150px;
+	padding: 20px;
+    margin: 0 auto;
+    
+}
+.sticy-header{ 
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0;
+    width: 87%;
+   
+  }
+
+/* top nav */
+.top-nav{
+    text-align: center;
+    display: flex;
+
+}
+.top-nav input{
+    padding: 5px;
+    font-size: 15px;
+    border: .5px solid grey;
+    border-bottom: 2px solid #F29434;
+    float: left;
+    width: 60%;
+    height: 32px;
+    background: #f1f1f1;
+    margin-top: 10px;
+}
+.top-nav img{
+    margin-right: 70px;
+}
+.top-nav a{
+    margin-left: 70px;
+}
+.top-nav button{
+  float: left;
+  width: 5%;
+  height: 45px;
+  padding: 10px;
+  background: #F29434;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.top-nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    margin-top: 25px;
+}
+/* top nav end */
+
+/* Navigation */
+.navigation ul li a{
+text-decoration: none;
+color: #000;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.nav-ul li{
+    border-bottom-style: solid;
+    border-bottom-color: #F23534;
+    padding: 12px;  
+    font-size: 17px; 
+   
+}
+.navigation ul .active{
+    background-color: #F23534;
+}
+.nav-ul li:hover{
+    background-color: #F23534; 
+}
+
+/* Navigation end */
+/* slide */
+.slide img{
+    width: 100%;
+    margin-top: 150px;
+}
+/* slide end */
+
+/* product card */
+.product-heading{
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.row-one{
+    display: flex;
+    
+}
+.programing{
+    display: flex;
+   
+}
+.motivition{
+    display: flex;
+}
+.card{
+    
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    margin-right: 10px;
+    }
+    .card img{
+        width: 150px;
+        height: 200px;
+    }
+  .card a{
+      text-decoration: none;
+  } 
+  .card h4{
+      color: black;
+  } 
+    .card p{
+    color:#F23534 ;
+    font-size: bold;
+ }
+ .about-card{
+     background-color: transparent;
+     height: 150px;
+ }
+    .card p span{
+        text-decoration: line-through;
+        color: grey;
+        
+    }
+    .card .product-details{
+        color: gray;
+    }
+    .card button {
+    
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #1D1F24;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: width 1s;
+    }
+    
+    
+    .card:hover{
+    
+    box-shadow: 0 4px 8px 0 black;
+}
+.card button:hover{
+    background-color: #F29434;
+    width: 116px;
+}
+  .add{
+      display: flex;
+      margin: 0 25px;
+
+  }  
+    
+    /* product card end */
+
+        /* chekout-page */
+.head-1{
+    border: 1px solid gray;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: bold;
+    color: white;
+    background-color: #F29434;
+    
+}
+
+.chekout-head{
+    display: flex;
+}
+.chekout-head-left{
+    width: 100%;
+}
+.chekout-head-right{
+    width: 100%;
+}
+
+ 
+.chekout-head-left input{ 
+    width: 550px;
+    height: 35px;
+    
+}
+.input-phn-mail{
+    width: 275px;
+    height: 35px;
+}
+.order{
+    width: 100px;
+    height: 55px;
+    color: white;
+    background-color: teal;
+    border: none;
+    margin: 0 50%;
+    border-radius: 2px;
+}
+table{
+    border: 2px solid black;
+    margin: 50px 50px;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+}
+th,td{
+    border: 2px solid black;
+    text-align: center;
+}
+ /* chekout-page end */
+    
+/* ============================================
+ footer area
+ ============================================ */
+
+ .f-top{
+    background: #1D1F24;
+    display: flex;
+    padding: 50px 0;
+    padding-left: 50px;}
+    
+
+    
+
+.fitem {
+    width: 295px;
+    margin: 0 20px;
+}
+.f-img {
+    margin-bottom: 20px;
+}
+.fitem p {
+    color: #FBFCFC;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+    
+}
+.fitem h2{
+    
+    color: #FBFCFC;
+    margin-bottom: 25px;
+}
+.secend-f{
+ margin-left: 600px;
+}
+
+.footer_bottom {
+    text-align: center;
+    background: #000;
+    padding: 30px;
+    border-top: 1px solid #727272;
+}
+.footer_bottom p {
+    color: #727272;
+    font-size: 12px;
+}
+.footer_bottom p:hover{
+transform: scale(2);
+color: #F29434;
+
+}
